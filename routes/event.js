@@ -1,6 +1,13 @@
 var express = require("express");
 var router = express.Router();
 var Event = require("../model/event");
+
+// Event.create({
+//     date : "7th April 2018",
+//     heading : "WORKSHOP ON SPACE TECHNOLOGY",
+//     content : `IIT Roorkee in collaboration with Indian Space Research Organisation(ISRO) organized a full day workshop on Space Technology on 7th April 2018. The focus of the workshop was mainly on ‘Bhuvan’, an online geoportal which provides image and map visualization with data download and versatile viewing capabilities.`
+// }) 
+
 // Event.create({
 //     date : "6th September 2019",
 //     heading : "Challenges and Opportunities in Cloud Operations",
@@ -37,11 +44,7 @@ var Event = require("../model/event");
 //     content : `Braving the pandemic situation, CIG hosted an exclusive talk with Dr Sunil Kumar Vippula, Director Data Science at Ericsson where he unfolded the coming of age applications in AI, IoT and Analytics and how these are bringing revolution in business and lifestyle. The interview was live broadcasted through our Youtube channel which can be found here: https://www.youtube.com/channel/UCsstbHoTrFraZXh4Hw7CR3w .Dr Sunil indeed enlightened us with his experience and provided us with extensive pathways into this illustrious career.`
 // })
 
-// Event.create({
-//     date : "7th April 2018",
-//     heading : "WORKSHOP ON SPACE TECHNOLOGY",
-//     content : `IIT Roorkee in collaboration with Indian Space Research Organisation(ISRO) organized a full day workshop on Space Technology on 7th April 2018. The focus of the workshop was mainly on ‘Bhuvan’, an online geoportal which provides image and map visualization with data download and versatile viewing capabilities.`
-// })   
+  
 
 
 

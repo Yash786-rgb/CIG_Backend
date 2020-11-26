@@ -16,7 +16,9 @@ var Testimonial = require("../model/testimonial");
 //     content : testContent2,
 //     image : "/images/Abhishek%20Jain.png",
 //     name : "Abhishek Jain",
-//     designation : "Alumni" 
+//     designation : "MS Mechatronics, Worcester Polytechnic Institute"
+
+
 // })
 
 
@@ -27,7 +29,7 @@ var Testimonial = require("../model/testimonial");
 //     content : testContent3,
 //     image : "/images/Meghraj%20Bhoyar.png",
 //     name : "Meghraj Bhoyar",
-//     designation : "Alumni" 
+//     designation : "Co-founder at Ridobiko" 
 // })
 
 router.get("/",(req,res)=>{
