@@ -5,6 +5,7 @@ const orgSchema = new mongoose.Schema({
    email : String,
    phone : String,
    interest : [String],
-   message : String
+   message : String,
+   date : String,
 })
 module.exports = mongoose.model("Org",orgSchema);
